@@ -1,0 +1,11 @@
+print("Insert name:")
+
+let i = input()
+
+if (len(i) == 1){
+    let c = ""
+} else {
+    let c = "s"
+}
+
+print("Hey ", i, " your name is ", len(i), " character", c, " long")
